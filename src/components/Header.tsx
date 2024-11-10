@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header id="main-box">
-      <div className="logo"><a href="/">Portfolio</a></div>
+      <div className="logo"><Link href="/">Portfolio</Link></div>
       <button id="menu-button" onClick={toggle}>
         ☰
       </button>
