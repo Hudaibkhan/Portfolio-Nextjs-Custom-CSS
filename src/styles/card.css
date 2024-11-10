@@ -1,0 +1,66 @@
+/* Container for project items */
+.project-item {
+    width: 300px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0px 12px rgb(243, 223, 223);
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+    border: 2px solid black;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for project image */
+.portfolio-image {
+    border-radius: 30px;
+    margin-bottom: 15px;
+    box-shadow: 0 0px 18px rgb(8, 143, 253);
+}
+
+/* Title styling */
+.project-item h3 {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+/* Description styling */
+.project-item p {
+    font-size: 0.95em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.project-item button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-item button:hover {
+    background-color: #0056b3;
+}
+
+/* Link styling inside button */
+.project-item button a {
+    /* color: #ffffff; */
+    text-decoration: none;
+}
+
+.project-item button a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,67 @@
+.project-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom : 30px;
+}
+
+.project-box>h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.project-box>h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.project-card{
+    display: flex;
+    gap: 25px;
+    animation: fadeIn 0.5s ease-in-out 0.4s;
+}
+
+.project-card-1 ,.project-card-2{
+    display: flex;
+    gap: 25px;
+}
+
+@media (max-width: 1300px) {
+    .project-card{
+        gap: 40px;
+        flex-direction: column;
+    }
+    .project-card-1 ,.project-card-2{
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .project-card-1 ,.project-card-2{
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px){
+    .project-card-1 ,.project-card-2{
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
