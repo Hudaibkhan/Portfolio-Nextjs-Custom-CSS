@@ -20,9 +20,11 @@ export default function Card({ image, h3, p, href }: CardProps) {
             />
             <h3>{h3}</h3>
             <p>{p}</p>
-            <a href={href} target="_blank" rel="noopener noreferrer" className="view-project-button">
-                View Project
-            </a>
+            <button type="button">
+              <a href={href} target="_blank" rel="noopener noreferrer" className="view-project-button">
+                  View Project
+              </a>
+            </button>
         </div>
     );
 }
