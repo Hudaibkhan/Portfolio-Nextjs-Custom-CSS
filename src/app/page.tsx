@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div id="main">
       <div id="left-side">
-        <h3>Hello, It's me</h3>
+        <h3>Hello, It&apos;s me</h3>
         <h1>Hudaib Khan</h1>
         <h2 className="typing-text">And I am a <span>Developer</span></h2>
         <p>I, am passionate software engineer student and a future AI developer</p>

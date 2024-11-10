@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "../../styles/project.css";
 import "../globals.css"
 import Card from "@/components/Project-Card";
